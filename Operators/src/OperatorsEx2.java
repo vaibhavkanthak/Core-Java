@@ -1,7 +1,7 @@
 public class OperatorsEx2 {
     public static void main(String[] args)
     {
-        int a = 20, b = 10, c = 0;
+        int a, b = 10, c = 0;
 
         // a=b+++c is compiled as
         // b++ +c

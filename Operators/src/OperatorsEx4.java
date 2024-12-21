@@ -29,7 +29,7 @@ public class OperatorsEx4 {
         // assignment operator to provide shorthand
         // assignment
         // a=a&b
-        a &= b;
+        //a &= b;
         System.out.println("a= " + a);
     }
 }

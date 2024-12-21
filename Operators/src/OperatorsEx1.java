@@ -1,7 +1,7 @@
 public class OperatorsEx1 {
     public static void main(String[] args)
     {
-        int a = 20, b = 10, c = 0, d = 20, e = 40, f = 30;
+        int a = 20, b = 10, d = 20, e = 40, f = 30;
 
         // precedence rules for arithmetic operators.
         // (* = / = %) > (+ = -)
