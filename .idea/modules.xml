@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConditionalStatements/ConditionalStatements.iml" filepath="$PROJECT_DIR$/ConditionalStatements/ConditionalStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreJava.iml" filepath="$PROJECT_DIR$/CoreJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
       <module fileurl="file://$PROJECT_DIR$/Operators/Operators.iml" filepath="$PROJECT_DIR$/Operators/Operators.iml" />
     </modules>
   </component>
