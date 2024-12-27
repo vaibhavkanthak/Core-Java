@@ -14,7 +14,7 @@ public class ArraysEx10 {
 
         }
         int sum = 0;
-        float average = 0;
+        float average;
         for(int j = 0; j < n; j++){
 
             sum += arr[j];
