@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 //Count Distinct elements of array
 public class ArraysEx07 {
