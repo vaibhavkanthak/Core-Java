@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //Pangram checking in java
-public class ArraysEx03 {
+public class StringsEx05 {
 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
