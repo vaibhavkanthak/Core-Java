@@ -27,7 +27,7 @@ public class StringsEx05 {
                 visited[ch - 'A'] = true;
         }
         for(int i = 0; i < 26; i++){
-            if(visited[i] == false)
+            if(!visited[i])
                 return false;
         }
         return true;
