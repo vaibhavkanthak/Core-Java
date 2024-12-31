@@ -42,12 +42,13 @@ public class StringsEx01 {
         s5 = "geeky" + s5;
         System.out.println(s5.equals(s6));
         System.out.println(s5 == s6);
-
-
-
-
-
-
+        String s7 = "GEEKYNOMAAD";
+        System.out.println(s5.equalsIgnoreCase(s7));
+        System.out.println(s5.toUpperCase());
+        System.out.println(s5.toLowerCase());
+        System.out.println(s4);
+        int a = 10;
+        String s8 = "New";
 
     }
 }
