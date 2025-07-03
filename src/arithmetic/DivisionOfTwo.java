@@ -1,3 +1,5 @@
+package arithmetic;
+
 public class DivisionOfTwo {
     public static void main(String[] args){
 
