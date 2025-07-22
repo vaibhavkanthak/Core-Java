@@ -16,5 +16,7 @@ public class EvenOrOdd
         {
             System.out.println("The given number "+n+" is Odd ");
         }
+        s.close();
     }
+
 }
