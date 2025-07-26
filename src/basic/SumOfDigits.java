@@ -12,7 +12,7 @@ public class SumOfDigits {
         long n = input.nextLong();
 
         // Calculate and display the sum of the digits
-        System.out.println("The sum of the digits is:  " + sumDigits(n));
+        System.out.println("The sum of the digits is: " + sumDigits(n));
     }
 
     public static int sumDigits(long n) {
