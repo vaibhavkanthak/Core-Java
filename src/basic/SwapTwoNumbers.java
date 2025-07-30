@@ -5,7 +5,7 @@ public class SwapTwoNumbers {
 
         int a, b, temp;
 
-        a = 12;
+        a = 13;
         b = 15;
         System.out.println("Before swapping : a, b = " + a + ", " + b);
 
