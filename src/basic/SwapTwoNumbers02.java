@@ -12,7 +12,7 @@ public class SwapTwoNumbers02 {
         b = a - b;  // Subtract the original b from the new a and store the result in b
         a = a - b;  // Subtract the new b from the updated a and store the result in a
 
-        System.out.println("After swapping:- a, b = " + a + ", " + b);
+        System.out.println("After swapping: a, b = " + a + ", " + b);
 
     }
 }
