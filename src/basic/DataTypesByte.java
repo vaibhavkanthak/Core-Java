@@ -1,3 +1,4 @@
+package basic;
 //Java program to demonstrate Byte Data type
 class DataTypesByte{
 		

@@ -1,3 +1,4 @@
+package basic;
 //Java program to demonstrate boolean primitive data types.
 class DataTypes{
 
