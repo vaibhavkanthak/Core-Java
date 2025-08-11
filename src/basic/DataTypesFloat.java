@@ -1,5 +1,5 @@
 package basic;
-//Java program to illustrate float primitive data type
+//Java program to illustrate float primitive data type.
 class DataTypesFloat{
 		
 		public static void main(String[] args){
