@@ -1,7 +1,7 @@
 //Java program to show scope of instance and static variables
 package basic;
 public class ScopeOfVariables {
-    static int x = 11;
+    static int x = 22;
     private int y = 33;
     public void method1(int x)
     {
