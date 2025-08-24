@@ -1,11 +1,11 @@
-import java.util.*;
- class PracticeProblem {
+public class PracticeProblem {
 
 
     public static void main(String[] args){
 
-        Random r = new Random();
-        System.out.println(r.nextInt());
+        System.out.println("\nThis is after newline");
+        String emoji = "\uD83D\uDE03";
+        System.out.println(emoji);
 
 
     }
