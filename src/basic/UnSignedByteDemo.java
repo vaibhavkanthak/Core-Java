@@ -16,6 +16,7 @@ public class UnSignedByteDemo {
         System.out.println("b1 = " + Byte.toUnsignedInt(b1));
         System.out.println("b2 = " + Byte.toUnsignedInt(b2));
         System.out.println("b3 = " + Byte.toUnsignedInt(b3));
+        System.out.println();
 
 
 
