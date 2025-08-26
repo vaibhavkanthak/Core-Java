@@ -1,7 +1,7 @@
 package basic;
 import java.util.Scanner;
 public class CompareTwo {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         // Create a Scanner to obtain input from the command window
         Scanner input = new Scanner(System.in);
         int number1; // First number to compare
