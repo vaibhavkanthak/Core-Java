@@ -30,6 +30,7 @@ public class StringDemo {
 
             String s4 = "geek";
             System.out.println(s1.contains(s4));
+            System.out.println(s1.equals(s4));
         }
 
 }
