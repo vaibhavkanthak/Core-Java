@@ -10,6 +10,7 @@ public class PracticeProblem {
         out.println("java\u2122");
 
         String s = "java";
+        s = "java1";
         String s1 = s.substring(0, 1);
         out.println(s1);
         out.println(s1 + " ");
