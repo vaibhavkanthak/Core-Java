@@ -29,7 +29,7 @@ public class PracticeProblem {
         out.println(b);
         //4
         StringBuffer sf = new StringBuffer("Geekyway");
-        out.println(sf);
+        System.out.println(sf);
         //5
         StringBuilder sb = new StringBuilder("Nomaadicway");
         System.out.println(sb);
