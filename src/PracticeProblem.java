@@ -32,7 +32,7 @@ public class PracticeProblem {
         System.out.println(sf);
         //5
         StringBuilder sb = new StringBuilder("Nomaadicway");
-        out.println(sb);
+        System.out.println(sb);
 
     }
 
