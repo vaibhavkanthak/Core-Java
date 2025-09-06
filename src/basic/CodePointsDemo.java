@@ -14,6 +14,7 @@ public class CodePointsDemo {
 
             //properly count code points
             System.out.println("Emoji code points: " + emoji.codePointCount(0, emoji.length()));
+            System.out.println("Emoji code points: " + emoji.codePointCount(0, emoji.length()));
 
         }
 }
