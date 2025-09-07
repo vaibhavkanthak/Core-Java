@@ -62,5 +62,16 @@ public class JavaStringMethods {
             System.out.println("\" \".isBlank(): " + spaceStr.isBlank()); // true (different from isEmpty)
             System.out.println("\"   \\t   \".isBlank(): " + "   \t   ".isBlank()); // true (whitespace only)
 
+            // method 9: equals() and equalsIgnoreCase()
+            String a = "Java";
+            String b = "java";
+            String c = "JAVA";
+
+            System.out.println("\nequals() and equalsIgnoreCase() examples:");
+            System.out.println("a.equals(b): " + a.equals(b)); // false (case-sensitive)
+            System.out.println("a.equals(c): " + a.equals(c)); // false
+            System.out.println("a.equalsIgnoreCase(b): " + a.equalsIgnoreCase(b)); // true
+            System.out.println("a.equalsIgnoreCase(c): " + a.equalsIgnoreCase(c)); // true
+
         }
 }
