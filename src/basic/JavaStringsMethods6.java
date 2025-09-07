@@ -23,5 +23,8 @@ public class JavaStringsMethods6 {
         // Edge case: repeat(0) gives empty string
         String emptyRepeat = "Hi".repeat(0);
         System.out.println("repeat(0): [" + emptyRepeat + "]");
+
+        //-----trim()-----
+        System.out.println(text.trim());
     }
 }
