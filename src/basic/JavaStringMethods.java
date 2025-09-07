@@ -73,5 +73,12 @@ public class JavaStringMethods {
             System.out.println("a.equalsIgnoreCase(b): " + a.equalsIgnoreCase(b)); // true
             System.out.println("a.equalsIgnoreCase(c): " + a.equalsIgnoreCase(c)); // true
 
+            // method 10: startsWith() and endsWith()
+            System.out.println("\nstartsWith() and endsWith() examples:");
+            System.out.println("text.startsWith(\"This\"): " + text.startsWith("This")); // true
+            System.out.println("text.startsWith(\"this\"): " + text.startsWith("this")); // false (case-sensitive)
+            System.out.println("text.endsWith(\"String.\"): " + text.endsWith("String.")); // true
+            System.out.println("text.endsWith(\"string.\"): " + text.endsWith("string.")); // false
+
         }
 }
