@@ -37,7 +37,13 @@ public class JavaStringMethods {
                 System.out.println("U+" + Integer.toHexString(cp).toUpperCase() +
                         " -> " + new String(Character.toChars(cp)));
             }
+            // method 6: new String(int[] codePoints, int offset, int count)
+            String reconstructed = new String(codePointsArray, 0, codePointsArray.length);
+            System.out.println("\nReconstructed string from codePoints array: " + reconstructed);
 
+            // partial reconstruction (just first 4 code points: "This")
+            String partial = new String(codePointsArray, 0, 4);
+            System.out.println("Partial reconstruction (first 4 code points): " + partial);
 
 
         }
