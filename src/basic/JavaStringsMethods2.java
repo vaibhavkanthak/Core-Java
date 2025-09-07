@@ -26,5 +26,22 @@ public class JavaStringsMethods2 {
 
         int index6 = text.indexOf('z');
         System.out.println("indexOf('z'): " + index6);
+
+        // ----- lastIndexOf() examples -----
+        System.out.println("\n----- lastIndexOf() examples -----");
+        int last1 = text.lastIndexOf("is");
+        System.out.println("lastIndexOf(\"is\"): " + last1);
+
+        int last2 = text.lastIndexOf("is", 4);
+        System.out.println("lastIndexOf(\"is\", 4): " + last2);
+
+        int last3 = text.lastIndexOf('s');
+        System.out.println("lastIndexOf('s'): " + last3);
+
+        int last4 = text.lastIndexOf('s', 4);
+        System.out.println("lastIndexOf('s', 4): " + last4);
+
+        int last5 = text.lastIndexOf("xyz");
+        System.out.println("lastIndexOf(\"xyz\"): " + last5);
     }
 }
