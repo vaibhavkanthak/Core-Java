@@ -45,6 +45,15 @@ public class JavaStringMethods {
             String partial = new String(codePointsArray, 0, 4);
             System.out.println("Partial reconstruction (first 4 code points): " + partial);
 
+            // method 7: isEmpty()
+            String emptyStr = "";
+            String nonEmptyStr = "Hello";
+
+            System.out.println("\nisEmpty() examples:");
+            System.out.println("\"\".isEmpty(): " + emptyStr.isEmpty()); // true
+            System.out.println("\"Hello\".isEmpty(): " + nonEmptyStr.isEmpty()); // false
+            System.out.println("\" \".isEmpty(): " + " ".isEmpty()); // false (space is not empty)
+
 
         }
 }
