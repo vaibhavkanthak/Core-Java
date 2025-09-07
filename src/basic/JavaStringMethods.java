@@ -1,5 +1,7 @@
 package basic;
 
+import java.util.Arrays;
+
 public class JavaStringMethods {
         public static void main(String[] args){
 
@@ -25,5 +27,18 @@ public class JavaStringMethods {
             System.out.println("str1.compareTo(str2): " + str1.compareTo(str2));
             System.out.println("str2.compareTo(str1): " + str2.compareTo(str1));
             System.out.println("str1.compareTo(str3):" + str1.compareTo(str3));
+
+            //method 5 codePoints -> IntStream
+            int[] codePointsArray = text.codePoints().toArray();
+            System.out.println("\ncodePoints() example:");
+            System.out.println("Code points array: " + Arrays.toString(codePointsArray));
+
+            for(int cp : codePointsArray){
+                System.out.println("U+" + Integer.toHexString(cp).toUpperCase() +
+                        " -> " + new String(Character.toChars(cp)));
+            }
+
+
+
         }
 }
