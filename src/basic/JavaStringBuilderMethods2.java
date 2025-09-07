@@ -6,6 +6,7 @@ public class JavaStringBuilderMethods2 {
         StringBuilder builder = new StringBuilder();
         System.out.println("1. Empty builder created");
         System.out.println("Length: " + builder.length()); // length = 0
+        System.out.println("Capacity (initial): " + builder.capacity());
 
         // 2. append(String str)
         builder.append("Hello");
@@ -43,8 +44,20 @@ public class JavaStringBuilderMethods2 {
         // 9. length()
         System.out.println("9. Current length: " + builder.length());
 
-        // 10. toString()
+       // 10. Capacity()
+        System.out.println("10. Current capacity: " + builder.capacity());
+        //Default capacity = 16, but it expands automatically (usually oldCapacity * 2 + 2).
+
+        // 11. replace(int start, int end, String str)
+        builder.replace(0, 4, "JAVA");
+        System.out.println("11. After replace(0, 4, \"JAVA\"): " + builder);
+
+        //12. reverse()
+        builder.reverse();
+        System.out.println("12. After reverse(): " + builder);
+
+        // 13. toString()
         String finalString = builder.toString();
-        System.out.println("10. Final string from builder: " + finalString);
+        System.out.println("13. Final string from builder: " + finalString);
     }
 }
