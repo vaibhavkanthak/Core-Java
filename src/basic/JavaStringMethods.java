@@ -48,12 +48,19 @@ public class JavaStringMethods {
             // method 7: isEmpty()
             String emptyStr = "";
             String nonEmptyStr = "Hello";
+            String spaceStr = " ";
 
             System.out.println("\nisEmpty() examples:");
             System.out.println("\"\".isEmpty(): " + emptyStr.isEmpty()); // true
             System.out.println("\"Hello\".isEmpty(): " + nonEmptyStr.isEmpty()); // false
             System.out.println("\" \".isEmpty(): " + " ".isEmpty()); // false (space is not empty)
 
+            // method 8: isBlank() (Java 11+)
+            System.out.println("\nisBlank() examples:");
+            System.out.println("\"\".isBlank(): " + emptyStr.isBlank()); // true
+            System.out.println("\"Hello\".isBlank(): " + nonEmptyStr.isBlank()); // false
+            System.out.println("\" \".isBlank(): " + spaceStr.isBlank()); // true (different from isEmpty)
+            System.out.println("\"   \\t   \".isBlank(): " + "   \t   ".isBlank()); // true (whitespace only)
 
         }
 }
