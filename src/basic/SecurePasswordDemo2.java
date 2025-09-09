@@ -46,22 +46,22 @@ public class SecurePasswordDemo2 {
             in.close();
 
             // 2. System.console() demo
-            Console cons = System.console();
-            if (cons != null) {
-                String username = cons.readLine("User name: ");
-                char[] passwd = cons.readPassword("Password: ");
-
-                // Fake check
-                if ("admin".equals(username) && Arrays.equals(passwd, "secret".toCharArray())) {
-                    cons.printf("Login successful!\n");
-                } else {
-                    cons.printf("Invalid login!\n");
-                }
-
-                // Clear password
-                Arrays.fill(passwd, '*');
-            } else {
-                System.out.println("No console available. Run in terminal for Console demo.");
+//            Console cons = System.console();
+//            if (cons != null) {
+//                String username = cons.readLine("User name: ");
+//                char[] passwd = cons.readPassword("Password: ");
+//
+//                // Fake check
+//                if ("admin".equals(username) && Arrays.equals(passwd, "secret".toCharArray())) {
+//                    cons.printf("Login successful!\n");
+//                } else {
+//                    cons.printf("Invalid login!\n");
+//                }
+//
+//                // Clear password
+//                Arrays.fill(passwd, '*');
+//            } else {
+//                System.out.println("No console available. Run in terminal for Console demo.");
 
 
         }
