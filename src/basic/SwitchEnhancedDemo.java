@@ -24,7 +24,7 @@ public class SwitchEnhancedDemo {
             };
 
             System.out.println(result);
-            //3.
+            //3. enhanced switch expression
             String season = "Spring";
 
             int numLetters = switch (season) {
@@ -37,6 +37,7 @@ public class SwitchEnhancedDemo {
             };
 
             System.out.println("Letters = " + numLetters);
+
 
 
 
