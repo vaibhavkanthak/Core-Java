@@ -43,7 +43,12 @@ public class WhileLoopDemo {
             for(int value : arr1){
                 System.out.println(value);
             }
-
+            int num = 8;
+            int z = 1;
+            while(z <= 10){
+                System.out.println(num + " * " + z + " = " + num * z);
+                z++;
+            }
 
 
         }
