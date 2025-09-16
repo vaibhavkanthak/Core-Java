@@ -39,6 +39,11 @@ public class WhileLoopDemo {
                 if(c == 4) continue;
                 System.out.println(c);
             }
+            int[] arr1 = {'a', 'b', 'c'};
+            for(int value : arr1){
+                System.out.println(value);
+            }
+
 
 
         }
