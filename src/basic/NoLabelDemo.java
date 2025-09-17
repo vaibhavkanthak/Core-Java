@@ -1,3 +1,4 @@
+//Java program written to explain same program without label.
 package basic;
 public class NoLabelDemo {
     public static void main(String[] args) {
