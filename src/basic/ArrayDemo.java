@@ -54,6 +54,18 @@ public class ArrayDemo {
             System.out.println("\nAfter Reinitialization:");
             for (int n1 : count) System.out.print(n1 + " ");
             System.out.println();
+
+            int[] empty1 = new int[0];
+            int[] empty2 = new int[] {};
+
+            System.out.println("empty1 length = " + empty1.length);
+            System.out.println("empty2 length = " + empty2.length);
+
+            // null is different
+            int[] nullArray = null;
+            System.out.println("nullArray == null ? " + (nullArray == null));
+
+
             // Pass anonymous array directly
 
             printArray(new int[] {11, 22, 33, 44});
