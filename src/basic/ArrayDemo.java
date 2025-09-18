@@ -45,29 +45,22 @@ public class ArrayDemo {
                 System.out.println(name);
             }
 
+            int[] count = {1, 2, 3};
+            System.out.println("Original:");
+            for (int n1 : count) System.out.print(n1 + " ");
 
+            // Reinitialize with new values using anonymous array
+            count = new int[] {100, 200, 300, 400};
+            System.out.println("\nAfter Reinitialization:");
+            for (int n1 : count) System.out.print(n1 + " ");
+            System.out.println();
+            // Pass anonymous array directly
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            printArray(new int[] {11, 22, 33, 44});
+        }
+        static void printArray(int[] arr){
+            for (int num : arr){
+                System.out.print(num + " ");
+            }
         }
 }
