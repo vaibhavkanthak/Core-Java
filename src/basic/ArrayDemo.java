@@ -35,6 +35,16 @@ public class ArrayDemo {
                 System.out.print(prime + " ");
             }
 
+            String[] authors = {
+                    "James Gosling",
+                    "Bill Joy",
+                    "Guy Steele", // trailing comma allowed
+            };
+
+            for (String name : authors) {
+                System.out.println(name);
+            }
+
 
 
 
