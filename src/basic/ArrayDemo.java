@@ -19,5 +19,16 @@ public class ArrayDemo {
                 System.out.println("a[" + i + "] = " + a[i]);
             }
 
+            int n = 3;
+            int[] numbers = new int[n];             //length decided at runtime
+
+            numbers[0] = 100;
+            numbers[1] = 200;
+            numbers[2] = 300;
+
+            for(int num : numbers){
+                System.out.println(num);
+            }
+
         }
 }
