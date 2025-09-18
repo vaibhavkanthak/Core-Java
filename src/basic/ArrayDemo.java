@@ -30,5 +30,34 @@ public class ArrayDemo {
                 System.out.println(num);
             }
 
+            int[] smallPrimes = {2, 3, 5, 7, 11};
+            for (int prime : smallPrimes){
+                System.out.print(prime + " ");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 }
