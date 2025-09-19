@@ -30,24 +30,5 @@ public class ArrayCopyDemo {
             System.out.println("After decreasing size: " + Arrays.toString(shorter));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
 }
