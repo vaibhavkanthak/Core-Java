@@ -42,5 +42,24 @@ public class ArraySortDemo {
                System.out.println(r);
            }
 
+           /*
+           Alternate Method
+           import java.util.ArrayList;
+            import java.util.Collections;
+            import java.util.List;
+            public class LotteryUsingShuffle {
+                    public static void main(String[] args) {
+                    int n = 49, k = 6;
+                    List<Integer> list = new ArrayList<>(n);
+                    for (int i = 1; i <= n; i++) list.add(i);
+
+                    Collections.shuffle(list);          // Fisher-Yates under the hood
+                    List<Integer> combo = list.subList(0, k);
+                    Collections.sort(combo);
+                    System.out.println(combo);
+                        }
+                    }
+            */
+
         }
 }
