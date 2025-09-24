@@ -11,7 +11,7 @@ public class raggedArrayDemo {
             ragged[1] = new int[4]; //row 1 -> 4 cols
             ragged[2] = new int[3]; //row 2 -> 3 cols
 
-            //Fill with values
+            //Fill with values loop
             int value = 1;
             for(int i = 0; i < ragged.length; i++){
                 for(int j = 0; j < ragged[i].length; j++){
