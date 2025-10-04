@@ -1,4 +1,4 @@
-//java ragged array example
+//java ragged array example check
 package basic;
 
 public class raggedArrayDemo {
