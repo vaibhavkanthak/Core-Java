@@ -1,7 +1,7 @@
 //Swap two numbers without using a third variable
 package practice;
 
-public class practice03 {
+public class Practice03 {
         public static void main(String[] args){
             int a = 10, b = 20;
 

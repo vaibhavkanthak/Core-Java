@@ -1,7 +1,7 @@
 //Print your name, age, and city
 package practice;
 
-public class practice01 {
+public class Practice01 {
         public static void main(String[] args){
             String name = "John";
             int age = 35;
