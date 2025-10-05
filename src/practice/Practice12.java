@@ -1,3 +1,4 @@
+//Check whether a number is even or odd
 package practice;
 import java.util.Scanner;
 public class Practice12 {
