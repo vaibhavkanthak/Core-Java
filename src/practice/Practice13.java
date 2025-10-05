@@ -1,3 +1,4 @@
+//Find greatest of two numbers using ternary operator
 package practice;
 
 public class Practice13 {
