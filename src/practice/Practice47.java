@@ -1,4 +1,4 @@
-//Input 5 numbers in an array and print them
+//Input 5 numbers in an array and print them.
 package practice;
 public class Practice47 {
         public static void main(String[] args){
