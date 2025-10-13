@@ -8,6 +8,6 @@ public class Practice90 {
         int sum = 0;
         for (int num : arr)
             sum += num;
-        System.out.println("Missing number: " + (total - sum));
+        System.out.println("Missing number:" + (total - sum));
     }
 }
