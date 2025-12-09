@@ -9,5 +9,6 @@ public class Practice90 {
         for (int num : arr)
             sum += num;
         System.out.println("Missing number: " + (total - sum));
+
     }
 }
