@@ -12,5 +12,10 @@ public class DataType {
             int y = 50_000;
             int z = x * y;
             System.out.println(z); //overflowed and so wrapped within range of int.
+
+            int m = Integer.MIN_VALUE;
+            m = -m;
+            System.out.println(m);
+            int result = Math.addExact(Integer.MIN_VALUE, 1);
         }
 }
