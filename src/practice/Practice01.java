@@ -6,7 +6,7 @@ public class Practice01 {
             String name = "John";
             int age = 35;
             String city = "New york";
-            Float height = 5.6f;
+            float height = 5.6f;
 
             System.out.println("Name: " + name);
             System.out.println("age: " + age);
