@@ -1,4 +1,4 @@
-//Calculate area and perimeter of a rectangle
+//Calculate area and perimeter of a rectangle.
 package practice;
 
 public class Practice05 {
