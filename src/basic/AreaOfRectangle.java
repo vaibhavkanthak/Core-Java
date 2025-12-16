@@ -1,4 +1,4 @@
-package arithmetic;
+package basic;
 
 public class AreaOfRectangle {
 
