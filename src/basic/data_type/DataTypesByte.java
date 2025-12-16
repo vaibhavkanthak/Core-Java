@@ -1,4 +1,4 @@
-package basic;
+package basic.data_type;
 //Java program to demonstrate Byte Data type
 class DataTypesByte{
 		

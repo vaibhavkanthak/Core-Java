@@ -1,5 +1,5 @@
 //Java program to demonstrate Char primitive data type
-package basic;
+package basic.data_type;
 public class DataTypesChar{
 		
 		public static void main(String[] args){

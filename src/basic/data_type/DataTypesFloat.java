@@ -1,4 +1,4 @@
-package basic;
+package basic.data_type;
 //Java program to illustrate float primitive data type.
 class DataTypesFloat{
 		

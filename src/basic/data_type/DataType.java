@@ -1,4 +1,4 @@
-package basic;
+package basic.data_type;
 
 public class DataType {
         public static void main(String[] args){
@@ -17,5 +17,6 @@ public class DataType {
             m = -m;
             System.out.println(m);
             int result = Math.addExact(Integer.MIN_VALUE, 1);
+
         }
 }
