@@ -5,7 +5,8 @@ public class DataTypesChar{
 		public static void main(String[] args){
 		
 		char a = 'A';
-		
+		a++;
+		//a--;
 		System.out.println("char: " + a);
 	}
 }

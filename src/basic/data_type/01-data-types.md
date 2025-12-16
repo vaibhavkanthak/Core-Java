@@ -122,3 +122,67 @@ byte and short values are used in an expression, they are promoted to int when t
 Therefore, int is often the best choice when an integer is needed. 
 **By default, compiler, considers every integral as ‘int’**
 
+**short**
+short is a signed 16-bit type. It has a range from –32,768 to 32,767. It is probably the
+least-used Java type.
+Range:  -2^15  to 2^15 - 1
+**max value =  + 32767**
+**min value =    -32768**
+
+**int**
+size: 4 bytes [ 32 bits ]
+Range: -2^31 to 2^31 - 1
+max value: 2147483647
+min value: -2147483648
+
+1. **long**
+size: 8 bytes [ 64 bits ]
+Range: -2^63 to 2^63 - 1
+**number of characters present in big files may exceed int range hence return type of length() method is long**
+long l = file.length();
+
+Floating point numbers:
+**float**: 5 to 6 decimal places accuracy 
+size 4 bytes
+Range: -3.4E-38 to 3.4E-38
+
+**double**
+14 to 15 decimal places accuracy
+double precision
+size 8 bytes
+size: -1.7E308 to 1.7E308
+
+**Decimal literals are treated as double by default.**
+A float variable cannot hold a double value directly because float **has less precision** (32-bit) compared to double (64-bit).
+To assign a decimal literal to a float, you must use a **type suffix** f or F to indicate it’s a float.
+
+**char**
+java is UNICODE based and number of different Unicode's are greater than 256 and less than or equal to 65536.
+To represent these many characters 8 bits may not be enough, we should go for 16 bits.
+size: 2 bytes [ 16 bits ]
+Range: 0 to 65535
+In the formal specification for Java, char is referred to as an integral type, which means that it is in the same
+general category as int, short, long, and byte. However, because its principal use is for representing Unicode
+characters, char is commonly considered to be in a category of its own.
+
+![img_1.png](img_1.png)
+
+**float**
+The type float specifies a single-precision value that uses 32 bits of storage. Single
+precision is faster on some processors and takes half as much space as double
+precision, but will become imprecise when the values are either very large or very
+small. Variables of type float are useful when you need a fractional component but
+don’t require a large degree of precision. For example, float can be useful when
+representing dollars and cents.
+
+float hightemp, lowtemp;
+
+**double**
+Double precision, as denoted by the double keyword, uses 64 bits to store a value.
+Double precision is actually faster than single precision on some modern processors
+that have been optimized for high-speed mathematical calculations. All transcendental
+math functions, such as sin( ), cos( ), and sqrt( ), return double values. When you need
+to maintain accuracy over many iterative calculations, or are manipulating large-valued
+numbers, double is the best choice.
+
+
